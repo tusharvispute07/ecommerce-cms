@@ -93,7 +93,7 @@ export default function SettingsPage(){
             </div>
             
             <div className="mb-5 max-w-sm">
-                <h2 className="mb-3 font-bold text-gray-500">Sale's Banner:</h2>
+                <h2 className="mb-3 font-bold text-gray-500">Sale&apos;s Banner:</h2>
                 <div className="flex flex-row mt-5 ">
                 
                 <div className="mr-3 text-center">
