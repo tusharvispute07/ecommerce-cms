@@ -19,7 +19,8 @@ export const authOptions = {
         }else{
           return false
         }
-    }
+    },
+    secret: process.env.JWT_SECRET
   }
 }
 
