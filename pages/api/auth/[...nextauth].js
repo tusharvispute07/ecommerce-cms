@@ -12,6 +12,7 @@ export const authOptions = {
       clientSecret: process.env.GOOGLE_SECRET
     })
   ], adapter: MongoDBAdapter(clientPromise),
+  secret: process.env.JWT_SECRET,
   callbacks: {
     session: ({session, token, user })=> {
         if (adminEmails.includes(session?.user?.email)){
@@ -20,7 +21,6 @@ export const authOptions = {
           return false
         }
     },
-    secret: process.env.JWT_SECRET
   }
 }
 
