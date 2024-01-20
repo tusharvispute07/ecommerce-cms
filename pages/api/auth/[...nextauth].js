@@ -20,7 +20,7 @@ export const authOptions = {
         }else{
           return false
         }
-    },
+    }
   }
 }
 
